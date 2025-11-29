@@ -25,6 +25,6 @@ public class Expense {
 
     @Override
     public String toString() {
-        return "Expense(date=" + date + ", description=" + description + ", amount=" + amount + ")";
+        return "Expense(" + date + ", " + description + ", " + amount + ")";
     }
 }
